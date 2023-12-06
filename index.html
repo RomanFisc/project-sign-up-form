@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="content">
+        <div class="left-side">
+            <div class="banner-bar">
+                <h1 class="title">BK Surf Fix</h1>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="form-header">
+                <p class="subtitle">We specialize in fixing all types of surfboards, PU and Epoxy. We can do finbox repairs, color matching, and buckled boards. Bring your board in and we can make it look brand new!</p>
+            </div>
+            <div class="form-container">
+                <form class="contact-form">
+                    <div class="legend-container">
+                        <legend class="legend">Contact today!</legend>
+                    </div>
+                    <div class="form-content">
+                        <div class="form-row">
+                            <label for="first-name">*Name</label>
+                            <input type="text" id="Name" name="Name" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">*Email</label>
+                            <input type="email" id="email" name="email" required placeholder="joe@example.com">
+                        </div>
+                        <div class="form-row">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890">      
+                        </div>
+                        <div class="form-row">
+                            <label for="board-type">*Board Type</label>
+                            <input type="text" id="board-type" name="board-type" required placeholder="brand and size">
+                        </div>
+                        <div class="form-row">
+                            <label for="description">*Description of Ding</label>
+                            <textarea name="description" id="description" required></textarea>
+                        </div>
+                    </div>
+                    <div class="button-box">
+                        <div class="form-row">
+                            <label></label>
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
